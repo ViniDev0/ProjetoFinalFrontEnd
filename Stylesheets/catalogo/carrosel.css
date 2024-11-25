@@ -1,0 +1,61 @@
+.organizador {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.carrosel {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 8px;
+  max-width: 50vh;
+}
+
+.slides, .slides02 {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+
+}
+
+.slides img, .slides02 img {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #5E0396;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 2vh;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  z-index: 1000;
+}
+
+button:hover {
+  background: rgb(97, 75, 75);
+}
+
+.anterior {
+  left: 0vh;
+}
+
+.posterior {
+  right: 0vh;
+}
+
+#senhorDosAneisLivro {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#senhorDosAneisLivro, #neuromancerLivro {
+  justify-self: center;
+}
+.tituloLivro {
+  font-size: 2rem;
+}

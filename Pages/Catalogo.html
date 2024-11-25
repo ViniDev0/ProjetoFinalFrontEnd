@@ -26,10 +26,37 @@
       <a href="../Pages/Fantasia.html" class="generos" id="generoFantasia">Fantasia</a>
       <a href="../Pages/FicçãoCientifica.html" class="generos" id="generoFiccaoCientifica">Ficção Científica</a>
       <a href="../Pages/Terror.html" class="generos" id="generoTerror">Terror</a>
+    </nav>
+    
+    <nav class="organizador">
+        
+      <div class="carrosel">
+        <div class="slides">
+          <img src="../Assets/Imgs/Livros/Fantasia/SenhorDosAneis_Frontal.png" alt="">
+          <img src="../Assets/Imgs/Livros/Fantasia/SenhorDosAneis_3D.png" alt="">
+          <img src="../Assets/Imgs/Livros/Fantasia/SenhorDosAneis_Traseira.png" alt="">
+        </div>
+        <button class="anterior" onclick="mudarSlide(-1)">&#10094</button>
+        <button class="posterior" onclick="mudarSlide(1)">&#10095</button>
+      </div>
+        <h1 class="tituloLivro" id="senhorDosAneisLivro">O senhor dos Aneis</h1>
+      <div class="carrosel">
+        <div class="slides02">
+          <img src="../Assets/Imgs/Livros/Ficcao/Neuromancer_3D.png" alt="">
+          <img src="../Assets/Imgs/Livros/Ficcao/Neuromancer_Frontal.png" alt="">
+          <img src="../Assets/Imgs/Livros/Ficcao/Neuromancer_Traseira.png" alt="">
+        </div>
+        <button class="anterior" onclick="mudarSlide2(-1)">&#10094</button>
+        <button class="posterior" onclick="mudarSlide2(1)">&#10095</button>
+      </div>
+      <h1 class="tituloLivro" id="neuromancerLivro">Neuromancer</h1>
     </nav>  
-
   <main class="compartimentoCatalogo" id="compartimentoCatalogo">
     
   </main>
+
+
+
+  <script src="../Scripts/carrosel.js"></script>
 </body>
 </html>

@@ -1,0 +1,18 @@
+@media (max-width: 960px) {
+
+  .livros {
+    flex-direction: column;
+    justify-self: center;
+  }
+  .organizador {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .navegacao .logo  {
+    display: none;
+  }
+}

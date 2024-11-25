@@ -1,8 +1,7 @@
 .navegacaoCatalogo {
   display: flex;
   justify-content: space-evenly;
-  background: rgb(176, 126, 223);
-  
+  background: linear-gradient(to right, rgb(176, 126, 223), #5E0396);
 }
 
 .generos {
@@ -10,9 +9,14 @@
   color: white;
   padding: 1.5vh;
   font-size: 1.2rem;
+  transition: ease-out 0.5s;
+  z-index: 9999;
+  border-radius: 5px;
+  
 }
-
 .generos:hover {
-  background: rgb(154, 87, 216);
-
+  transform: scale(1.1);
+  background: #954dc2;
+  transition: 0.5s ease-in;
+  border-radius: 5px;
 }
