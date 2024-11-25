@@ -1,0 +1,18 @@
+.navegacaoCatalogo {
+  display: flex;
+  justify-content: space-evenly;
+  background: rgb(176, 126, 223);
+  
+}
+
+.generos {
+  text-decoration: none;
+  color: white;
+  padding: 1.5vh;
+  font-size: 1.2rem;
+}
+
+.generos:hover {
+  background: rgb(154, 87, 216);
+
+}
