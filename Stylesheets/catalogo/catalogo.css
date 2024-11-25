@@ -1,0 +1,56 @@
+.navegacao {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: #5E0396;
+  padding: 3vh;
+}
+
+.navegacao .logo img {
+  border-radius: 50%;
+  max-width: 5vw;
+}
+
+.navegacao .logo {
+  grid-column: -3;
+  position: absolute;
+  top: 1vh;
+  justify-self: center;
+}
+
+.enderecoIcone {
+  text-decoration: none;
+  color: #5E0396;
+  font-size: 1.5rem;
+}
+
+.icones {
+  width: 3vh;
+}
+
+.navegantes {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+  background: white;
+  padding: 2vh 4vh;
+  border-radius: 10px;
+  border: 0.1px solid white;
+  transition: ease-in 250ms;
+}
+
+#perfil {
+  grid-column: 1;
+  justify-self: start;
+}
+
+#carrinho {
+  grid-column: -1;
+  justify-self: end;
+}
+
+.navegantes:hover {
+  transition: ease-out 250ms;
+  transform: scale(1.1);
+  background: #E5E5E5;
+  border: 0.1px solid #E5E5E5;
+}

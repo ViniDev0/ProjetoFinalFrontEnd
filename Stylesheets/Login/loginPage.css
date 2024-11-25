@@ -1,0 +1,59 @@
+#backgroundLogin {
+  position: relative;
+  background: url(../Assets/Imgs/Background/ceuestralascado.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#conteudoLogin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formBox {
+  display: flex;
+  gap: 2vw;
+  flex-direction: column;
+  margin-top: 6%;
+  background: #E5E5E5;
+  padding: 4vw 10vw;
+  border-radius: 15px;
+  align-items: center;
+}
+
+
+.formBox .logoField {
+  max-width: 20vh;
+  border-radius: 50%;
+}
+
+.inputField {
+  border: 0;
+  padding: 1vh 1vh 1vh 3vh;
+  width: 20vw;
+  height: 4vh;
+  font-size: 1.5rem;
+  color: #5E0396;
+  border-radius: 15px;
+}
+.buttonBox {
+  border: 0;
+  color: white;
+  background: #5E0396;
+  width: 15vw;
+  height: 7vh;
+  font-size: 2rem;
+  border-radius: 30px;
+}
+.buttonBox:hover {
+  transition: ease-out 250ms;
+  background: #7c03c7;
+}
+.inputField::placeholder {
+  font-size: 1.3rem;
+  color: #5E0396;
+}
+
+.inputField:focus {
+  outline: none;
+}
