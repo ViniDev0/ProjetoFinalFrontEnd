@@ -1,6 +1,6 @@
 #backgroundLogin {
   position: relative;
-  background: url(../Assets/Imgs/Background/ceuestralascado.jpg);
+  background: url(/Assets/Imgs/Background/ceuestralascado.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
